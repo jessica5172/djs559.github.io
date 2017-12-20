@@ -1,0 +1,48 @@
+/* reset section */
+form, fieldset, legend, label, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*Form styles*/
+form {
+  position: absolute;
+  left: 4em;
+  top: 2.5em;
+  width: 90%;
+  text-align: center;
+  z-index:-1;
+}
+legend {
+  border-bottom: 1px solid black;
+  font-size: 2em;
+  max-width: 5em;
+}
+label {
+  color: #695D5D;
+  display: block;
+  padding-top: 1em;
+}
+.addinfo {
+  text-align: center;
+  font-size: 1.5em;
+  border: none;
+  padding-top: 1em;
+  padding-bottom: .3em;
+}
+textarea {
+  border: 1px solid black;
+  width: 60%;
+  resize: none;
+  box-shadow: 5px 10px #888888;
+}
+.submitbttn {
+  border: 1.1px solid black;
+  text-align: center;
+  background-color: #C7C6CC;
+  color: red;
+  margin-top: 1em;
+}
+input {
+  border: 1px solid black;
+}
