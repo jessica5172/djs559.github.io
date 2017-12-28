@@ -14,7 +14,7 @@ div, figure, img, figcaption, h2, h3, h4, h5, li, aside, dl {
   position: relative;
   top: 3em;
   left: 8em;
-  width: 60%;
+  width: 70%;
   height: 50%;
   border: 1px solid black;
   z-index:-1;

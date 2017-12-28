@@ -36,19 +36,17 @@ Filename: homeMediaQ.css
   }
 }
 @media only screen and (max-width:385px) {
-  /* For mobile phones: */
   .container {
     height: 100%;
     width: 90%;
-    top: 40em;
+    top: 32em;
     left: 0;
     margin-top: 1em;
     margin-bottom: 3em;
   }
 }
-@media only screen and (max-width:354px) {
-  /* For mobile phones: */
-  .container {
+@media only screen and (max-width:355px) {
+    .container {
     height: 100%;
     width: 90%;
     top: 51em;
@@ -57,8 +55,7 @@ Filename: homeMediaQ.css
     margin-bottom: 3em;
   }
 }
-@media only screen and (max-width:334px) {
-  /* For mobile phones: */
+@media only screen and (max-width:335px) {
   .container {
     height: 100%;
     width: 90%;
@@ -68,8 +65,7 @@ Filename: homeMediaQ.css
     margin-bottom: 3em;
   }
 }
-@media only screen and (max-width:329px) {
-  /* For mobile phones: */
+@media only screen and (max-width:330px) {
   .container {
     height: 100%;
     width: 90%;
@@ -80,11 +76,10 @@ Filename: homeMediaQ.css
   }
 }
 @media only screen and (max-width:315px) {
-  /* For mobile phones: */
   .container {
     height: 100%;
     width: 90%;
-    top: 65em;
+    top: 68em;
     left: 0;
     margin-top: 1em;
     margin-bottom: 3em;
