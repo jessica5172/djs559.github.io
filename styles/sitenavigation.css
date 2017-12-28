@@ -1,9 +1,17 @@
-/*reset*/
+/*
+Author: Daniel Soriano
+Date: 12/10/2017
+Filename: sitenavigation.css
+*/
+/*reset section*/
 ul, li, a, footer, body {
   margin: 0;
   padding: 0;
   border: 0;
-  /* text-align: center; */
+}
+body {
+  padding-bottom: 5em;
+  padding-top: 1em;
 }
 /*site navigation*/
 ul {
@@ -12,10 +20,11 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
+  padding-top: .2em;
   border-bottom: 2px solid black;
   height: 1.8em;
 }
-li.topnav {
+.topnav {
   display: inline;
   text-align: center;
   padding: 2px;
@@ -25,7 +34,6 @@ li.topnav {
 li:hover {
   background-color: #C7C6CC;
   color: #695D5D;
-  border-bottom: 1px solid black;
 }
 ul a {
   text-decoration: none;
@@ -44,6 +52,11 @@ ul a {
   border-right: 2px solid black;
   border-top: 2px solid black;
   border-bottom:2px solid black;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  box-shadow: 5px 10px #777777;
 }
 .title {
   text-align: center;

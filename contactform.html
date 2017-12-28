@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+
+Author: Daniel Soriano
+Date: 12/10/2017
+Filename: contactform.html
+
+-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +27,7 @@
     <a href="Math.html"><li class="font">Math</li></a>
   </ul>
 
-<!-- site navigation -->
+  <!-- site navigation -->
     <ul>
       <a href="index.html">
         <li class="topnav">Home</li>
@@ -31,16 +38,17 @@
     </ul>
 
     <!-- Contact form -->
-    <form action="">
+    <form action="results.html">
+
       <fieldset>
 
         <legend>Contact Information</legend>
 
           <label>Name: <input type="text" input placeholder="First and last name" required></label>
 
-          <label for="">Email: <input type="email" input placeholder="you@example.com" required></label>
+          <label for="">Email: <input type="email" input placeholder="you&#64;example.com" required></label>
 
-          <label for="">Number: <input type="text" input placeholder="5595559999"></label>
+          <label for="">Phone: <input type="text" input placeholder="5595559999"></label>
 
       </fieldset>
 
@@ -49,6 +57,7 @@
         <legend class="addinfo">Additional Information</legend>
 
         <textarea name="addinfo" id="addinfo" rows="10" cols="10" maxlength="300"></textarea>
+
       </fieldset>
 
       <fieldset>

@@ -1,9 +1,13 @@
-/* reset */
-h1, p, body, header {
+/*
+Author: Daniel Soriano
+Date: 12/10/2017
+Filename: content.css
+*/
+/* reset section */
+h1, p, body, header, aside, table, tr, th, td, caption {
   margin: 0;
   padding: 0;
   border: 0;
-  /* text-align: center; */
 }
 /* content styles */
 h1 {
@@ -13,6 +17,7 @@ h1 {
   max-width: 100%;
   margin-left: 1em;
   text-transform: capitalize;
+  z-index: -1;
 }
 p {
   position: absolute;
@@ -22,10 +27,35 @@ p {
   margin-left: 2em;
   border-left: 2px solid black;
   padding-left: 1em;
+  z-index: -1;
 }
 p::first-line {
   color: #695D5D;
 }
 p::first-letter {
   color: red;
+}
+/* table styles */
+table {
+  position: absolute;
+  top: 25em;
+  left: 12em;
+  border: 1px solid black;
+  background-color: #444444;
+  box-shadow: 5px 10px #888888;
+}
+caption {
+  text-align: center;
+  text-decoration: #444444 underline;
+  font-size: 1.3em;
+}
+.space {
+  margin-bottom: .8em;
+}
+th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 4px;
+  background-color: #695D5D;
+  color: white;
 }

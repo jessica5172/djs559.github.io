@@ -1,4 +1,9 @@
-/* reset */
+/*
+Author: Daniel Soriano
+Date: 12/10/2017
+Filename: tutor_info_alignment.css
+*/
+/* reset section */
 div, figure, img, figcaption, h2, h3, h4, h5, li, aside, dl {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@ div, figure, img, figcaption, h2, h3, h4, h5, li, aside, dl {
   position: relative;
   top: 3em;
   left: 8em;
-  width: 70%;
+  width: 60%;
   height: 50%;
   border: 1px solid black;
   z-index:-1;
@@ -50,6 +55,8 @@ figcaption {
 dl {
   margin-top: .5em;
   margin-bottom: .5em;
+  color: transparent;
+  text-shadow: 0 0 15px rgba(0,0,0,1);
 }
 h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
