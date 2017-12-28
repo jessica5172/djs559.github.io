@@ -37,9 +37,9 @@ p::first-letter {
 }
 /* table styles */
 table {
-  position: absolute;
-  top: 25em;
-  left: 12em;
+  position: relative;
+  top: 21em;
+  left: 10em;
   border: 1px solid black;
   background-color: #444444;
   box-shadow: 5px 10px #888888;
