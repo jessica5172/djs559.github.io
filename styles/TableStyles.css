@@ -1,0 +1,30 @@
+/* reset */
+table, caption, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* table styles */
+table {
+  position: relative;
+  top: 6em;
+  left: 10em;
+  border: 1px solid black;
+  background-color: #444444;
+  box-shadow: 5px 10px #888888;
+}
+caption {
+  text-align: center;
+  text-decoration: #444444 underline;
+  font-size: 1.3em;
+}
+.space {
+  margin-bottom: .8em;
+}
+th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 4px;
+  background-color: #695D5D;
+  color: white;
+}
