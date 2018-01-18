@@ -4,7 +4,7 @@ Date: 12/10/2017
 Filename: content.css
 */
 /* reset section */
-h1, p, body, header, aside, table, tr, th, td, caption {
+h1, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -21,12 +21,16 @@ h1 {
 }
 p {
   position: absolute;
+  margin: 0 auto;
   top: 9em;
-  left: 5.5em;
+  width: 75%;
+  text-align: center;
+  /*left: 5.5em;*/
   margin-right: 2em;
-  margin-left: 2em;
+  margin-left: 1em;
   border-left: 2px solid black;
   padding-left: 1em;
+  /*padding-right: 3em;*/
   z-index: -1;
 }
 p::first-line {
