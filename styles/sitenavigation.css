@@ -18,11 +18,13 @@ body {
 ul {
   background-color: #695D5D;
   position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
-  width: 80%;
+  height: 1.8em;
+  width: 100%;
   padding-top: .2em;
   border-bottom: 2px solid black;
-  height: 1.8em;
   text-align: center;
 }
 .topnav {
@@ -43,23 +45,34 @@ ul a {
 /*footer styles*/
 footer {
   position: fixed;
+  left: 0;
+  right: 0;
   bottom: 0;
-  width: 80%;
+  width: 100%;
+  padding-top: .2em;
   background-color: #695D5D;
   color: white;
   border-top: 2px solid black;
   text-align: center;
+}
+/* media queries */
+@media only screen and (max-width: 385px) {
+  ul {
+    height: 3.5em;
+  }
 }
 @media only screen and (min-width: 1000px) {
   ul {
     background-color: #695D5D;
     position: fixed;
     top: 0;
-    width: 70%;
+    width: 80%;
     padding-top: .2em;
     border-bottom: 2px solid black;
     height: 1.8em;
     text-align: center;
-
+  }
+  footer {
+    width: 80%
   }
 }

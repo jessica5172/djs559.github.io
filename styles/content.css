@@ -39,3 +39,9 @@ p::first-line {
 p::first-letter {
   color: red;
 }
+@media only screen and (max-width: 385px) {
+  h1 {
+    top: 3em;
+    left: 2em;
+  }
+}
