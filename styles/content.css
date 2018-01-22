@@ -25,12 +25,10 @@ p {
   top: 9em;
   width: 75%;
   text-align: center;
-  /*left: 5.5em;*/
   margin-right: 2em;
   margin-left: 1em;
   border-left: 2px solid black;
   padding-left: 1em;
-  /*padding-right: 3em;*/
   z-index: -1;
 }
 p::first-line {
@@ -39,9 +37,9 @@ p::first-line {
 p::first-letter {
   color: red;
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 384px) {
   h1 {
     top: 3em;
-    left: 2em;
+    left: 3.5em;
   }
 }
