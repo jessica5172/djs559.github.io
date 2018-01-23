@@ -76,3 +76,9 @@ footer {
     width: 80%
   }
 }
+/*media print styles*/
+@media print {
+  .topnav, ul, a, footer {
+    display: none;
+  }
+}
